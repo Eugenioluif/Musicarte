@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../media/imagenes/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Musicarte Productos</title>
+</head>
+<body id="productos">
+  <header>
+      <!-- barra de navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../media/imagenes/logo1.png" alt="logo" width="180px" class="logo">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                <div class="navbar-nav  text-right">
+                    <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link active text-white" aria-current="page" href="../index.html#promo-enlace">Promos</a>
+                    <a class="nav-link active text-white" aria-current="page" href="./productos.html">Productos</a>
+                    <a class="nav-link active text-white" aria-current="page" href="../index.html#nosotros">Nosotros</a>
+                    <a class="nav-link active text-white" aria-current="page" href="./tablaturas.html">Tablatura</a>
+                    <a class="nav-link active text-white" aria-current="page" href="./contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+  </header>
+  <main> 
+        <br>
+        <!-- Buscador-->
+        <div class="row justify-content-center pt-3 mb-4 mt-5">
+          <div class="col-6" >
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn " type="submit">Search</button>
+            </form>
+          </div>
+          <div class="col-2 text-center">
+            <label for="formRange" class="form-label text-light">Rango de Precios</label>
+            <input type="range" class="form-range" min="0" max="5" step="0.5" id="formRange">
+          </div>
+        </div>
+        <!-- tabla-->
+        <div class="row">
+            <div class="col-4">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Amplificador</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-guitarra" role="tab" aria-controls="list-profile">Guitarra</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-pedales" role="tab" aria-controls="list-messages">Pedales</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-bajos" role="tab" aria-controls="list-settings">Bajos</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-pianos" role="tab" aria-controls="list-settings">Pianos/Teclados</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-bateria" role="tab" aria-controls="list-settings">Bateria</a>
+              </div>
+            </div>
+            
+            <div class="col-8 mb-4">
+              <div class="tab-content" id="nav-tabContent">
+                <!-- amplificador--> 
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/marshall.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Amplificador Marshall</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/ampliff.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Amplificador Marshall</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/amplifend.jpg.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Amplificador Blackstar</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card  pt-2">
+                            <img src="../media/imagenes/amplipeavey.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Amplificador Peavey</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card pt-2">
+                            <img src="../media/imagenes/amplimarshall2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Amplificador Marshall</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card pt-2">
+                            <img src="../media/imagenes/amplipeavey2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Amplificador Marshall</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card pt-2">
+                            <img src="../media/imagenes/ampliblackstar.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Amplificador Blackstar</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="card pt-2">
+                              <img src="../media/imagenes/amplimarshall.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Amplificador Marshall</h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card pt-2">
+                              <img src="../media/imagenes/ampliboogie.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Amplificador Boogie</h5>
+                              </div>
+                            </div>
+                          </div>
+                      </div>    
+                  </div>
+                <!-- guitarra-->
+                <div class="tab-pane fade" id="list-guitarra" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/guitarratelec.jpg" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitarra Telecaster</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/guitarrafender2.jpg" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitarra Fender</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/producguitarra3.jpg" class="card-img-top " alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitarra Fender</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/epiponeburnst.jpg" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitarra Epiphone</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/lespaul.jpg" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitarra Les Paul</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/lespaulslash.jpg.webp" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitarra Les Paul</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/lespaulazul.jpg" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitarra Les Paul</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/epiponenoelg.jpg" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitarra Epiphone</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/elctrocriolla.jpg.webp" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitarra Gracia</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                              <img src="../media/imagenes/guitarrafender.jpg" class="card-img-top w-50" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Guitarra Fender</h5>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="../media/imagenes/producguitarra4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitarra SG</h5>
+                            </div>
+                          </div>
+                        </div>
+                    </div> 
+                </div>
+                <!-- bajo-->
+                <div class="tab-pane fade" id="list-bajos" role="tabpanel" aria-labelledby="list-messages-list">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/bajo1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bajo Sterling </h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/bajo2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bajo Fender Elite</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/bajo3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bajo Fender Offset</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- pedal-->
+                <div class="tab-pane fade" id="list-pedales" role="tabpanel" aria-labelledby="list-messages-list">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/pedal4.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pedal Digital Multi-Fx</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/pedal6.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pedal Ultra </h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/pedaltube.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pedal Tube</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/pedalblues.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pedal Blues</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/pedaldistortion.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pedal Distortion</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/pedalwah.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pedal Crazy Baby</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/pedalreverb.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pedal Reverb</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/pedal3.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pedal ZOOM</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/pedal5.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pedal Compressor</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/pedal2.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pedal Vox</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- bateria-->
+                <div class="tab-pane fade" id="list-bateria" role="tabpanel" aria-labelledby="list-messages-list">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/bata1.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bateria Pearl</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/bata2.jpg" class="card-img-top w-45" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bateria Pearl</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/bata3.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bateria Mapex</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/bata4.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bateria Tama</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/bata5.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bateria Pearl</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/bateria1.jpg" class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bateria Yamaha</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- piano-->
+                <div class="tab-pane fade" id="list-pianos" role="tabpanel" aria-labelledby="list-messages-list">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/teclado4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Teclado Korg</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/teclado1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Teclado Yamaha</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/teclado2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Teclado Roland</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../media/imagenes/teclado3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Teclado Casio</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div> 
+        </div>   
+        <hr> 
+<!-- fin productos-->            
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="foot justify-content-center">
+          <div class="col-md-4 col-lg-4">
+            <div class="box_foot">
+              <h5>Redes</h5>
+                <p><a href="">Facebook</a></p>
+                <p><a href="">Instagram</a></p>
+                <p><a href="">Whatsapp</a></p>
+            </div>
+          </div>
+          
+          <div class="col-md-4 col-lg-4">
+              <div class="box_foot">
+                <h5>Musicarte</h5>
+                  <p><a href="../index.html">Inicio</a></p>
+                  <p><a href="../pages/productos.html">Productos</a></p>
+                  <p> <a href="../index.html#nosotros">Nosotros</a></p>
+                  <p><a href="../pages/tablaturas.html">Tablaturas</a></p>
+              </div>
+            </div>
+
+          <div class="col-md-4 col-lg-4 ">
+            <div class="box_foot">
+              <h5>Auspiciantes</h5>
+              <div>
+                <img src="../media/imagenes/fender.png" alt="">
+                <img src="../media/imagenes/gibson.jpeg" alt="">
+              </div>
+              <div>
+                <img src="../media/imagenes/ibanez.jpg" alt="">
+                <img src="../media/imagenes/Peavey.png" alt="">
+              </div>
+              <div>
+                <img src="../media/imagenes/Korg.png" alt="">
+                <img src="../media/imagenes/epiphone.jfif" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="box_cop">
+    <hr>
+    <p>Todos los derechos reservados © 2022 </p>
+  </div>   
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

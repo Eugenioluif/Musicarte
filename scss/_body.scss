@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(41, 41, 41);
+ 
+}
+
+img{
+    max-width: auto;
+    max-height: 100%;
+}
+
+h3{
+    font-size: 3.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1.5rem;
+    color:white;
+    text-shadow:0px 0px 5px white;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 2.5em;
+    font-size: large;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: white;  
+    max-width: 100rem;
+    margin: auto;
+}

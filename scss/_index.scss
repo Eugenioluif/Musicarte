@@ -1,0 +1,167 @@
+@import "variables";
+
+
+.container-fluid{
+    background-color: $col-neg;
+    margin-top: 3.5rem;
+    padding: 0.5rem;
+    position: fixed;
+    z-index: 10;  
+}
+
+/*  carro de compras */
+
+.carrito img{
+    width:3.1rem;  
+    position: fixed;
+    right: 0.6rem;
+    bottom: 2.5rem;
+    z-index: 5;
+    animation-name: width;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes width{
+    0%{width: 3rem;}
+    10%{width: 3.05rem;}
+    20%{width: 3.1rem;}
+    30%{width: 3.15rem;}
+    40%{width: 3.2rem;}
+    50%{width: 3.3rem;}
+    60%{width: 3.2rem;}
+    70%{width: 3.15rem;}
+    80%{width: 3.1rem;}
+    90%{width: 3.05rem;}
+    100%{width: 3rem;}
+}
+
+/*  barra de navegacion */
+
+.navbar-nav{
+    margin-top: 0.6rem;
+    padding: 0.6rem;
+
+    a{
+    letter-spacing: 0.12rem;
+    min-width: 120px;
+    height: 40px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    overflow: hidden;
+    color: $col-yell;
+  }
+    &:hover {
+    color: $col-blk;
+  }
+}
+
+.navbar-nav a:hover:after {
+    height: 100%;
+  }
+
+.navbar-nav a:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: $col-yell;
+  }
+
+.navbar-toggler-icon{
+    background-color: $col-yell;
+}
+
+/*  texto caracteristica */
+
+.caracteristica{
+    background-color: transparent;
+    color: $col-blk;
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 0.2em;
+    position: absolute;
+    top: 27rem;
+    right: 35%;
+    left: 35%;
+    text-shadow:0px 0px 5px $col-blk;
+}
+
+/*  estilos separador */
+
+#row-col{
+    background-color: $col-yell;
+    justify-content: center;
+    text-align: center;
+}
+
+.col-separador{
+    padding: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/*  carousel */
+
+.carousel-item{
+    cursor: pointer;
+
+    img {
+    object-fit: scale-down;
+    height: 50vh;
+    width: 100%;
+    }
+}
+
+/*  estilos boton vermas */
+
+.vermas{
+    padding: 0.3rem;
+    text-align: center;
+    margin: 15px 0px 20px;
+
+    a{
+    background-color: $col-yell;
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+    border: $col-yell 3px solid;
+    border-radius: 10%;
+    color: $col-blk;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    :hover{
+        font-size: 1.5rem;
+    box-shadow: 5px 15px 25px 5px $col-neg;
+    outline-offset: 2rem;
+    }
+}
+
+/*  estilos descripcion */
+
+.descripcion{
+    text-align: center;
+    color: $col-blk;
+    position: relative;
+    margin: 3.1rem;
+
+    p{
+    letter-spacing: 0.2rem;
+    line-height: 3.1rem;
+    }
+}

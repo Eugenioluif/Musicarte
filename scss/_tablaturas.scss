@@ -1,0 +1,51 @@
+
+@import "variables";
+
+body#body_tab{
+    background-color: $col-neg;
+    background-image: url(../media/imagenes/fondotab.png);
+    background-repeat: no-repeat;
+}
+
+/*boton letras */
+
+.abecedario{
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left: 40%;
+    z-index: 9;
+}
+
+.letra{
+    background-color: $col-neg;
+
+    img{
+        width: 1.9rem;
+        z-index: 8;
+    }
+}
+
+.letra:hover,
+.letra:focus {
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+
+/*videos */
+
+.card .card-body{
+    background-color: transparent;
+
+    h5{
+        color: $col-neg;
+        text-align: center;
+    }
+}
+
+.videos{
+    margin-top: 250px;
+    margin-bottom: 15px;
+}
+
+

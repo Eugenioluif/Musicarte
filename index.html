@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicarte</title>
+    <link rel="shortcut icon" href="./media/imagenes/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <header>
+    <!-- barra de navegacion-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                  <img src="./media/imagenes/logo1.png" alt="logo" width="190px" class="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+              <div class="navbar-nav  text-right">
+                  <a class="nav-link active text-white" aria-current="page" href="./index.html">Inicio</a>
+                  <a class="nav-link active text-white" aria-current="page" href="./index.html#promo-enlace">Promos</a>
+                  <a class="nav-link active text-white" aria-current="page" href="./pages/productos.html">Productos</a>
+                  <a class="nav-link active text-white" aria-current="page" href="./index.html#nosotros">Nosotros</a>
+                  <a class="nav-link active text-white" aria-current="page" href="./pages/tablaturas.html">Tablatura</a>
+                  <a class="nav-link active text-white" aria-current="page" href="./pages/contacto.html">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="carrito">
+            <a href="./pages/productos.html">
+                <img src="./media/imagenes/carrito.png" alt="carro de compra">
+            </a>
+        </div>
+  </header>
+<!-- cierre del header -->
+    <main>
+        <!-- imagen de fondo -->
+        <div class="imag_index">
+            <img src="./media/imagenes/descarga.png" alt="" width="100%">
+        </div>
+        <div class="caracteristica">
+            <p>Compra, venta y reparacion de Articulos Musicales</p>
+        </div>
+        <!-- separador -->
+        <div class="row" id="row-col">
+            <div class="col">
+              <div class="col-separador">
+                <img src="./media/imagenes/reparacioneslogopequeño.png" alt="logoreparacion" >
+              </div>    
+            </div>
+            <div class="col">
+              <div class="col-separador">
+                <img src="./media/imagenes/iconoguitarrapequeño.png" alt="logoguitarra" >
+              </div>
+            </div>
+            <div class="col">
+              <div class="col-separador">
+                <img src="./media/imagenes/baterialogopequeño.png" alt="logobateria" >
+              </div>
+            </div>
+            <div class="col">
+              <div class="col-separador">
+                <img src="./media/imagenes/calibradoslogopequeño.png" alt="logocalibrar" >
+              </div>
+            </div>
+            <div class="col">
+              <div class="col-separador">
+                <img src="./media/imagenes/logopequeñopiano.jpg" alt="logopiano" >
+              </div>
+            </div>
+            <div class="col">
+              <div class="col-separador">
+                <img src="./media/imagenes/iconoamplificador.png" alt="logoampli" >
+              </div>
+            </div>
+        </div>
+        <br id="promo-enlace">
+        <div class="subtitulo" id="promo-enlace">
+            <h3>Promociones</h3>
+        </div>
+        <!--productos promos -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide w-50 m-auto" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./media/imagenes/Guitarraacustica1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <br>
+            </div>
+          </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./media/imagenes/pedal1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/imagenes/amplimarshall2.jpg" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/imagenes/guitarraelectrica1.jpg" class="d-block w-100 m-auto" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/imagenes/guitarraelectrica2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/imagenes/epipone.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <!-- boton que redirecciona a pagina productos -->
+        <div class="vermas">
+            <a href="./pages/productos.html">Ver Catalogo</a>
+        </div>
+        <!-- historia de la empresa -->
+        <br id="nosotros"><br>
+        <div>  
+            <h3>Quienes Somos</h3>
+        </div>
+        
+        <div class="descripcion"> 
+            <p> Somos una empresa con gran experiencia y trayectoria en el      rubro musical. <br><br>
+            Ofrecemos la mayoría de las marcas que se importan en el país, <br> con Garantía Oficial de las más importantes empresas del mercado, <br> tales como Casio,Yamaha, Ampeg, Mapex, Korg , Ibanez, Epiphone, Peavey, Fender, Gibson, entre otras. <br><br>
+            Nos dedicamos a la calibracion, reparacion y venta de instrumentos musicales, 
+            <br> como asi tambien en la consignacion de nuevos y usados instrumentos musicales. <br><br>
+            Te brindaremos la mejor atención y asesoramiento para tupróximo Instrumento. <br>
+            Encontralo en Musicarte!
+            </p>
+        </div> 
+        <hr >
+
+    </main>
+    <!-- fin del main -->
+    <footer>
+        <!-- redes -->
+      
+      <div class="container">
+          <div class="row">
+            <div class="foot justify-content-center">
+              <div class="col-md-4 col-lg-4">
+                <div class="box_foot">
+                  <h5>Redes</h5>
+                    <p><a href="">Facebook</a></p>
+                    <p><a href="">Instagram</a></p>
+                    <p><a href="">Whatsapp</a></p>
+                </div>
+              </div>
+              
+              <div class="col-md-4 col-lg-4">
+                  <div class="box_foot">
+                    <h5>Musicarte</h5>
+                      <p><a href="./index.html">Inicio</a></p>
+                      <p><a href="./pages/productos.html">Productos</a></p>
+                      <p> <a href="./index.html#nosotros">Nosotros</a></p>
+                      <p><a href="./pages/tablaturas.html">Tablaturas</a></p>
+                  </div>
+                </div>
+
+              <div class="col-md-4 col-lg-4 ">
+                <div class="box_foot">
+                  <h5>Auspiciantes</h5>
+                  <div>
+                    <img src="./media/imagenes/fender.png" alt="">
+                    <img src="./media/imagenes/gibson.jpeg" alt="">
+                  </div>
+                  <div>
+                    <img src="./media/imagenes/ibanez.jpg" alt="">
+                    <img src="./media/imagenes/Peavey.png" alt="">
+                  </div>
+                  <div>
+                    <img src="./media/imagenes/Korg.png" alt="">
+                    <img src="./media/imagenes/epiphone.jfif" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="box_cop">
+        <hr>
+        <p>Todos los derechos reservados © 2022 </p>
+      </div> 
+      
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

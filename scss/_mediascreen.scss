@@ -1,0 +1,27 @@
+@import "variables";
+
+@media screen and (max-width: 680px){
+
+    .caracteristica{
+        background-color: transparent;
+        color: $col-blk;
+        text-align: center;
+        font-size: large;
+        letter-spacing: 0.1em;
+        position: absolute;
+        top: 10rem;
+        right: 35%;
+        left: 35%;
+        text-shadow:0px 0px 5px $col-blk;
+    }
+
+    .abecedario{
+        position: absolute;
+        left: 4rem;
+        display: grid;
+        grid-template-columns:repeat(9,1fr) ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 0.4rem;
+    }
+
+}

@@ -1,0 +1,24 @@
+@import "variables";
+
+body#contacto{
+    background-color: $col-neg;
+}
+
+/*formulario */
+
+.btn {
+    padding: 0.3rem;
+    font-size: 1rem;
+    width: 12.5rem;
+    border-radius: 5%;
+    color: rgb(201, 168, 5);
+    background-color: $col-neg;
+
+    &:hover{
+    background-color:rgb(201, 168, 5) ;
+    border: solid 1px $col-neg;
+    color: $col-neg;
+    font-weight: bold;
+    border-radius: 5%;
+    }
+}

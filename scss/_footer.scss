@@ -1,0 +1,60 @@
+@import "variables";
+
+footer{
+    width: 100%;
+    display: inline-block;
+    background-color: $col-neg;
+}
+
+.foot{  
+    display: flex;
+    margin: auto;
+}
+
+.box_foot{
+    margin: auto;
+    display: inline;
+    flex-direction: column;
+    padding: 2.8rem;
+    text-align: center;
+
+    h5{
+        color:$col-yell;
+        background-color: $col-neg;
+        font-size: 1.9rem;
+    }
+
+    a{
+        color: $col-yell;
+        margin-top: 1rem;
+        display:block;
+        text-align: center;
+    }
+
+    img{
+        width: 5rem;
+        display: inline-block;
+        padding: 0.3rem;
+    }
+}
+
+/* editor derechos reservados */
+
+.box_cop{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1.9rem;
+
+    p{
+        color:$col-yell ;
+        margin-top: 1.2rem;
+    }
+
+    hr{
+        border: none;
+        height: 1px;
+        background-color: $col-yell;  
+        max-width: 75rem;
+        margin: auto;
+    }
+}
