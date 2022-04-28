@@ -2,7 +2,7 @@
 @import "variables";
 
 body#body_tab{
-    background-color: $col-neg;
+    background-color: map-get($map-gral,col-neg);
     background-image: url(../media/imagenes/fondotab.png);
     background-repeat: no-repeat;
 }
@@ -10,15 +10,14 @@ body#body_tab{
 /*boton letras */
 
 .abecedario{
-    position: absolute;
-    display: flex;
-    top: 20%;
-    left: 40%;
+    @include positions(absolute); 
+    display: map-get($map-gral,flx);
+    @include ubication (20%,auto,auto,40%);
     z-index: 9;
 }
 
 .letra{
-    background-color: $col-neg;
+    background-color: map-get($map-gral,col-neg);
 
     img{
         width: 1.9rem;
@@ -38,7 +37,7 @@ body#body_tab{
     background-color: transparent;
 
     h5{
-        color: $col-neg;
+        color: map-get($map-gral,col-neg);
         text-align: center;
     }
 }

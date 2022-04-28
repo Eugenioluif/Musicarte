@@ -1,0 +1,14 @@
+Agregue un mapa en donde defini los colores y el display, luego un mixin position para que quede mas organizado el codigo.
+En cuanto a optimizar codigo cree un mixin tanto ubication como size
+donde el ubication puse top,right,bottom,left y size width y height, asi realizando 
+una optimizacion de espacio.
+En cuanto al extend pude utilizarlo en footer ya que fue el lugar donde le encontre una 
+buena utilidad.
+
+Por otro lado el meta viewport realice un resumen diferente en cada HTML, tambien asi
+kywords que trate de no repetirlas en todos lo mismo. No necesite cambiar los titulos, 
+los cambio que hice fueron el carro de compras una animacion a mi gusto divertida
+(sino muy seria la pagina) y por otro lado el boton "Ver Mas" debajo del carrousel de promociones
+el cual le hice una animacion front-back (que a mi criterio no queda mal).
+
+Gracias

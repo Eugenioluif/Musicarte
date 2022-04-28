@@ -1,3 +1,29 @@
-$col-neg:#000000;
-$col-blk: #ffffff;
-$col-yell: #c99f0b;
+$map-gral:(
+        col-neg:#000000,
+        col-blk: #ffffff,
+        col-yell: #c99f0b,
+        col-back-bot:#FFCE4E,
+        col-grey:#292929,
+        inl:inline,
+        flx:flex,
+        inl-bl:inline-block,
+        bl:block,
+        gr:grid
+);
+
+@mixin positions($position) {
+    position: $position;
+}
+
+@mixin ubication ($top,$right,$bottom,$left){
+    top:$top ;
+    right:$right;
+    bottom:$bottom;
+    left:$left;
+}
+
+@mixin size ($width,$height){
+    width: $width;
+    height: $height;
+}
+    

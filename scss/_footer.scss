@@ -2,38 +2,38 @@
 
 footer{
     width: 100%;
-    display: inline-block;
-    background-color: $col-neg;
+    display: map-get($map-gral,inl-bl);
+    background-color: map-get($map-gral,col-neg);
 }
 
 .foot{  
-    display: flex;
+    display: map-get($map-gral,flx);
     margin: auto;
+    text-align: center;
 }
 
 .box_foot{
-    margin: auto;
-    display: inline;
+    @extend .foot;
+    display: map-get($map-gral,inl);
     flex-direction: column;
     padding: 2.8rem;
-    text-align: center;
 
     h5{
-        color:$col-yell;
-        background-color: $col-neg;
+        color:map-get($map-gral,col-yell);
+        background-color:map-get($map-gral,col-neg);
         font-size: 1.9rem;
     }
 
     a{
-        color: $col-yell;
+        color: map-get($map-gral,col-yell);
         margin-top: 1rem;
-        display:block;
+        display:map-get($map-gral,bl);
         text-align: center;
     }
 
     img{
         width: 5rem;
-        display: inline-block;
+        display: map-get($map-gral,inl-bl);
         padding: 0.3rem;
     }
 }
@@ -41,19 +41,19 @@ footer{
 /* editor derechos reservados */
 
 .box_cop{
-    margin: auto;
-    text-align: center;
+    @extend .foot;
     padding-bottom: 1.9rem;
+    display: map-get($map-gral,inl);
 
     p{
-        color:$col-yell ;
+        color:map-get($map-gral,col-yell);
         margin-top: 1.2rem;
     }
 
     hr{
         border: none;
         height: 1px;
-        background-color: $col-yell;  
+        background-color: map-get($map-gral,col-yell);  
         max-width: 75rem;
         margin: auto;
     }

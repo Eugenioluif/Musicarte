@@ -1,12 +1,13 @@
+@import "variables";
+
 .center {
-    position: fixed;
-    right: 1.1rem;
-    bottom: 2.5rem;
+    @include positions(fixed);
+    @include ubication (auto,0.5rem,1rem,auto);
     transform: translate(-50%, -50%);
   }
  
   .down {
-    position: relative;
+    @include positions(relative);
     animation: down 1.6s ease-in infinite both;
   }
   .down .up {
@@ -23,21 +24,18 @@
     animation: rotate-out 1.6s ease-in infinite both;
   }
   .down .up .squeeze .rotate-in .rotate-out .square {
-    width: 100px;
-    height: 100px;
-    background: #fff;
+    @include size (100px,100px);
+    background: map-get($map-gral,col-blk);
   }
  
   .shadow {
-    position: absolute;
-    z-index: -1;
-    bottom: -2px;
-    left: -4px;
-    right: -4px;
+    @include positions(absolute);
+    z-index: 12;
+    @include ubication (auto,-4px,-2px,-4px);
     height: 2px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 0px 8px rgba(0, 0, 0, 0.2);
+    background: map-get($map-gral,col-neg);
+    box-shadow: 0 0 0px 8px map-get($map-gral,col-neg);
     animation: shadow 1.6s ease-in-out infinite both;
   }
  
