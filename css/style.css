@@ -310,7 +310,7 @@ footer {
     max-width: 75rem;
     margin: auto; }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 640px) {
   .caracteristica {
     background-color: transparent;
     color: #ffffff;
@@ -325,6 +325,7 @@ footer {
     text-shadow: 0px 0px 5px #ffffff; }
   .abecedario {
     position: absolute;
+    top: 2rem;
     left: 4rem;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -334,7 +335,7 @@ footer {
     position: relative;
     width: 150px;
     height: 80px;
-    top: 50%;
+    top: 23px;
     right: auto;
     bottom: auto;
     left: 35%;
