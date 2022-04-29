@@ -15,7 +15,7 @@
 
     .abecedario{
         @include positions(absolute);
-        top: 2rem;
+        top: 7rem;
         left: 4rem;
         display: map-get($map-gral,gr);
         grid-template-columns:repeat(9,1fr) ;
