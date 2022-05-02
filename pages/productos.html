@@ -41,13 +41,20 @@
         <div class="row justify-content-center pt-3 mb-4 mt-5">
           <div class="col-6" >
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn " type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="Ingrese Instrumento" aria-label="Search">
+              <button class="btn " type="submit">Buscar</button>
             </form>
           </div>
-          <div class="col-2 text-center">
-            <label for="formRange" class="form-label text-light">Rango de Precios</label>
-            <input type="range" class="form-range" min="0" max="5" step="0.5" id="formRange">
+          <div class="dropdown col-2">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Ordenar por
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Mayor Precio</a></li>
+              <li><a class="dropdown-item" href="#">Menor Precio</a></li>
+              <li><a class="dropdown-item" href="#">Más Relevante</a></li>
+            </ul>
           </div>
         </div>
         <!-- tabla-->
@@ -70,7 +77,7 @@
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/marshall.png" class="card-img-top" alt="...">
+                            <img src="../media/imagenes/marshall.png" class="card-img-top" alt="Amplificador Marshall">
                             <div class="card-body">
                               <h5 class="card-title">Amplificador Marshall</h5>
                             </div>
@@ -78,7 +85,7 @@
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/ampliff.jpg" class="card-img-top" alt="...">
+                            <img src="../media/imagenes/ampliff.jpg" class="card-img-top" alt="Amplificador Marshall">
                             <div class="card-body">
                               <h5 class="card-title">Amplificador Marshall</h5>
                             </div>
@@ -86,7 +93,7 @@
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/amplifend.jpg.webp" class="card-img-top" alt="...">
+                            <img src="../media/imagenes/amplifend.jpg.webp" class="card-img-top" alt="Amplificador Blackstar">
                             <div class="card-body">
                               <h5 class="card-title">Amplificador Blackstar</h5>
                             </div>
@@ -94,7 +101,7 @@
                         </div>
                         <div class="col">
                           <div class="card  pt-2">
-                            <img src="../media/imagenes/amplipeavey.jpg" class="card-img-top" alt="...">
+                            <img src="../media/imagenes/amplipeavey.jpg" class="card-img-top" alt="Amplificador Peavey">
                             <div class="card-body">
                               <h5 class="card-title">Amplificador Peavey</h5>
                             </div>
@@ -102,7 +109,7 @@
                         </div>
                         <div class="col">
                           <div class="card pt-2">
-                            <img src="../media/imagenes/amplimarshall2.jpg" class="card-img-top" alt="...">
+                            <img src="../media/imagenes/amplimarshall2.jpg" class="card-img-top" alt="Amplificador Marshall">
                             <div class="card-body">
                               <h5 class="card-title">Amplificador Marshall</h5>
                             </div>
@@ -110,7 +117,7 @@
                         </div>
                         <div class="col">
                           <div class="card pt-2">
-                            <img src="../media/imagenes/amplipeavey2.jpg" class="card-img-top" alt="...">
+                            <img src="../media/imagenes/amplipeavey2.jpg" class="card-img-top" alt="Amplificador Marshall">
                             <div class="card-body">
                               <h5 class="card-title">Amplificador Marshall</h5>
                             </div>
@@ -118,7 +125,7 @@
                         </div>
                         <div class="col">
                           <div class="card pt-2">
-                            <img src="../media/imagenes/ampliblackstar.jpg" class="card-img-top" alt="...">
+                            <img src="../media/imagenes/ampliblackstar.jpg" class="card-img-top" alt="Amplificador Blackstar">
                             <div class="card-body">
                               <h5 class="card-title">Amplificador Blackstar</h5>
                             </div>
@@ -126,7 +133,7 @@
                         </div>
                         <div class="col">
                             <div class="card pt-2">
-                              <img src="../media/imagenes/amplimarshall.jpg" class="card-img-top" alt="...">
+                              <img src="../media/imagenes/amplimarshall.jpg" class="card-img-top" alt="Amplificador Marshall">
                               <div class="card-body">
                                 <h5 class="card-title">Amplificador Marshall</h5>
                               </div>
@@ -134,7 +141,7 @@
                           </div>
                           <div class="col">
                             <div class="card pt-2">
-                              <img src="../media/imagenes/ampliboogie.jpg" class="card-img-top" alt="...">
+                              <img src="../media/imagenes/ampliboogie.jpg" class="card-img-top" alt="Amplificador Boogie">
                               <div class="card-body">
                                 <h5 class="card-title">Amplificador Boogie</h5>
                               </div>
@@ -147,7 +154,7 @@
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/guitarratelec.jpg" class="card-img-top w-50" alt="...">
+                            <img src="../media/imagenes/guitarratelec.jpg" class="card-img-top w-50" alt="Guitarra Telecaster">
                             <div class="card-body">
                               <h5 class="card-title">Guitarra Telecaster</h5>
                             </div>
@@ -155,7 +162,7 @@
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/guitarrafender2.jpg" class="card-img-top w-50" alt="...">
+                            <img src="../media/imagenes/guitarrafender2.jpg" class="card-img-top w-50" alt="Guitarra  Fender">
                             <div class="card-body">
                               <h5 class="card-title">Guitarra Fender</h5>
                             </div>
@@ -163,7 +170,7 @@
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/producguitarra3.jpg" class="card-img-top " alt="...">
+                            <img src="../media/imagenes/producguitarra3.jpg" class="card-img-top " alt="Guitarra  Fender">
                             <div class="card-body">
                               <h5 class="card-title">Guitarra Fender</h5>
                             </div>
@@ -171,7 +178,7 @@
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/epiponeburnst.jpg" class="card-img-top w-50" alt="...">
+                            <img src="../media/imagenes/epiponeburnst.jpg" class="card-img-top w-50" alt="Guitarra  Epiphone">
                             <div class="card-body">
                               <h5 class="card-title">Guitarra Epiphone</h5>
                             </div>
@@ -179,7 +186,7 @@
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/lespaul.jpg" class="card-img-top w-50" alt="...">
+                            <img src="../media/imagenes/lespaul.jpg" class="card-img-top w-50" alt="Guitarra  Les Paul">
                             <div class="card-body">
                               <h5 class="card-title">Guitarra Les Paul</h5>
                             </div>
@@ -187,7 +194,7 @@
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/lespaulslash.jpg.webp" class="card-img-top w-50" alt="...">
+                            <img src="../media/imagenes/lespaulslash.jpg.webp" class="card-img-top w-50" alt="Guitarra  Les Paul.">
                             <div class="card-body">
                               <h5 class="card-title">Guitarra Les Paul</h5>
                             </div>
@@ -195,7 +202,7 @@
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/lespaulazul.jpg" class="card-img-top w-50" alt="...">
+                            <img src="../media/imagenes/lespaulazul.jpg" class="card-img-top w-50" alt="Guitarra  Les Paul">
                             <div class="card-body">
                               <h5 class="card-title">Guitarra Les Paul</h5>
                             </div>
@@ -203,7 +210,7 @@
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/epiponenoelg.jpg" class="card-img-top w-50" alt="...">
+                            <img src="../media/imagenes/epiponenoelg.jpg" class="card-img-top w-50" alt="Guitarra Epiphone">
                             <div class="card-body">
                               <h5 class="card-title">Guitarra Epiphone</h5>
                             </div>
@@ -211,7 +218,7 @@
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/elctrocriolla.jpg.webp" class="card-img-top w-50" alt="...">
+                            <img src="../media/imagenes/elctrocriolla.jpg.webp" class="card-img-top w-50" alt="Guitarra Gracia">
                             <div class="card-body">
                               <h5 class="card-title">Guitarra Gracia</h5>
                             </div>
@@ -219,7 +226,7 @@
                         </div>
                         <div class="col">
                             <div class="card">
-                              <img src="../media/imagenes/guitarrafender.jpg" class="card-img-top w-50" alt="...">
+                              <img src="../media/imagenes/guitarrafender.jpg" class="card-img-top w-50" alt="Guitarra Fender">
                               <div class="card-body">
                                 <h5 class="card-title">Guitarra Fender</h5>
                               </div>
@@ -227,7 +234,7 @@
                           </div>
                         <div class="col">
                           <div class="card">
-                            <img src="../media/imagenes/producguitarra4.jpg" class="card-img-top" alt="...">
+                            <img src="../media/imagenes/producguitarra4.jpg" class="card-img-top" alt="Guitarra SG">
                             <div class="card-body">
                               <h5 class="card-title">Guitarra SG</h5>
                             </div>
@@ -240,7 +247,7 @@
                   <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/bajo1.jpg" class="card-img-top" alt="...">
+                        <img src="../media/imagenes/bajo1.jpg" class="card-img-top" alt="Bajo Sterling">
                         <div class="card-body">
                           <h5 class="card-title">Bajo Sterling </h5>
                         </div>
@@ -248,7 +255,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/bajo2.jpg" class="card-img-top" alt="...">
+                        <img src="../media/imagenes/bajo2.jpg" class="card-img-top" alt="Bajo Fender Elite">
                         <div class="card-body">
                           <h5 class="card-title">Bajo Fender Elite</h5>
                         </div>
@@ -256,7 +263,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/bajo3.jpg" class="card-img-top" alt="...">
+                        <img src="../media/imagenes/bajo3.jpg" class="card-img-top" alt="Bajo Fender Offset">
                         <div class="card-body">
                           <h5 class="card-title">Bajo Fender Offset</h5>
                         </div>
@@ -269,7 +276,7 @@
                   <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/pedal4.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/pedal4.jpg" class="card-img-top w-50" alt="Pedal Digital Multi-Fx">
                         <div class="card-body">
                           <h5 class="card-title">Pedal Digital Multi-Fx</h5>
                         </div>
@@ -277,7 +284,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/pedal6.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/pedal6.jpg" class="card-img-top w-50" alt="Pedal Ultra">
                         <div class="card-body">
                           <h5 class="card-title">Pedal Ultra </h5>
                         </div>
@@ -285,7 +292,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/pedaltube.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/pedaltube.jpg" class="card-img-top w-50" alt="Pedal Tube">
                         <div class="card-body">
                           <h5 class="card-title">Pedal Tube</h5>
                         </div>
@@ -293,7 +300,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/pedalblues.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/pedalblues.jpg" class="card-img-top w-50" alt="Pedal Blues">
                         <div class="card-body">
                           <h5 class="card-title">Pedal Blues</h5>
                         </div>
@@ -301,7 +308,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/pedaldistortion.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/pedaldistortion.jpg" class="card-img-top w-50" alt="Pedal Distortion">
                         <div class="card-body">
                           <h5 class="card-title">Pedal Distortion</h5>
                         </div>
@@ -309,7 +316,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/pedalwah.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/pedalwah.jpg" class="card-img-top w-50" alt="Pedal Crazy Baby">
                         <div class="card-body">
                           <h5 class="card-title">Pedal Crazy Baby</h5>
                         </div>
@@ -317,7 +324,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/pedalreverb.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/pedalreverb.jpg" class="card-img-top w-50" alt="Pedal Reverb">
                         <div class="card-body">
                           <h5 class="card-title">Pedal Reverb</h5>
                         </div>
@@ -325,7 +332,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/pedal3.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/pedal3.jpg" class="card-img-top w-50" alt="Pedal ZOOM">
                         <div class="card-body">
                           <h5 class="card-title">Pedal ZOOM</h5>
                         </div>
@@ -333,7 +340,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/pedal5.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/pedal5.jpg" class="card-img-top w-50" alt="Pedal Compressor">
                         <div class="card-body">
                           <h5 class="card-title">Pedal Compressor</h5>
                         </div>
@@ -341,7 +348,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/pedal2.jpg" class="card-img-top " alt="...">
+                        <img src="../media/imagenes/pedal2.jpg" class="card-img-top " alt="Pedal Vox">
                         <div class="card-body">
                           <h5 class="card-title">Pedal Vox</h5>
                         </div>
@@ -354,7 +361,7 @@
                   <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/bata1.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/bata1.jpg" class="card-img-top w-50" alt="Bateria Pearl">
                         <div class="card-body">
                           <h5 class="card-title">Bateria Pearl</h5>
                         </div>
@@ -362,7 +369,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/bata2.jpg" class="card-img-top w-45" alt="...">
+                        <img src="../media/imagenes/bata2.jfif" class="card-img-top w-45" alt="Bateria Pearl">
                         <div class="card-body">
                           <h5 class="card-title">Bateria Pearl</h5>
                         </div>
@@ -370,7 +377,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/bata3.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/bata3.jpg" class="card-img-top w-50" alt="Bateria Mapex">
                         <div class="card-body">
                           <h5 class="card-title">Bateria Mapex</h5>
                         </div>
@@ -378,7 +385,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/bata4.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/bata4.jpg" class="card-img-top w-50" alt="Bateria Tama">
                         <div class="card-body">
                           <h5 class="card-title">Bateria Tama</h5>
                         </div>
@@ -386,7 +393,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/bata5.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/bata5.jpg" class="card-img-top w-50" alt=">Bateria Pearl">
                         <div class="card-body">
                           <h5 class="card-title">Bateria Pearl</h5>
                         </div>
@@ -394,7 +401,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/bateria1.jpg" class="card-img-top w-50" alt="...">
+                        <img src="../media/imagenes/bateria1.jpg" class="card-img-top w-50" alt="Bateria Yamaha">
                         <div class="card-body">
                           <h5 class="card-title">Bateria Yamaha</h5>
                         </div>
@@ -407,7 +414,7 @@
                   <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/teclado4.jpg" class="card-img-top" alt="...">
+                        <img src="../media/imagenes/teclado4.jpg" class="card-img-top" alt="Teclado Korg">
                         <div class="card-body">
                           <h5 class="card-title">Teclado Korg</h5>
                         </div>
@@ -415,7 +422,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/teclado1.jpg" class="card-img-top" alt="...">
+                        <img src="../media/imagenes/teclado1.jpg" class="card-img-top" alt="Teclado Yamaha">
                         <div class="card-body">
                           <h5 class="card-title">Teclado Yamaha</h5>
                         </div>
@@ -423,7 +430,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/teclado2.jpg" class="card-img-top" alt="...">
+                        <img src="../media/imagenes/teclado2.jpg" class="card-img-top" alt="Teclado Roland">
                         <div class="card-body">
                           <h5 class="card-title">Teclado Roland</h5>
                         </div>
@@ -431,7 +438,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="../media/imagenes/teclado3.jpg" class="card-img-top" alt="...">
+                        <img src="../media/imagenes/teclado3.jpg" class="card-img-top" alt="Teclado Casi">
                         <div class="card-body">
                           <h5 class="card-title">Teclado Casio</h5>
                         </div>
@@ -471,16 +478,16 @@
             <div class="box_foot">
               <h5>Auspiciantes</h5>
               <div>
-                <img src="../media/imagenes/fender.png" alt="">
-                <img src="../media/imagenes/gibson.jpeg" alt="">
+                <img src="../media/imagenes/fender.png" alt="icono fender">
+                <img src="../media/imagenes/gibson.jpeg" alt="icono gibson">
               </div>
               <div>
-                <img src="../media/imagenes/ibanez.jpg" alt="">
-                <img src="../media/imagenes/Peavey.png" alt="">
+                <img src="../media/imagenes/ibanez.jpg" alt="icono ibañez">
+                <img src="../media/imagenes/Peavey.png" alt="icono peavey">
               </div>
               <div>
-                <img src="../media/imagenes/Korg.png" alt="">
-                <img src="../media/imagenes/epiphone.jfif" alt="">
+                <img src="../media/imagenes/Korg.png" alt="icono korg">
+                <img src="../media/imagenes/epiphone.jfif" alt="icono epiphone">
               </div>
             </div>
           </div>
