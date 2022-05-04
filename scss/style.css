@@ -649,4 +649,31 @@ footer {
             transform: scaleX(1.2);
   }
 }
+
+body#page404 {
+  background-color: black;
+}
+
+img {
+  position: relative;
+  text-align: center;
+}
+
+.cartel_error {
+  position: absolute;
+  top: 22rem;
+  left: 38rem;
+  bottom: 0px;
+}
+
+.cartel_error h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #c9a805;
+}
+
+.cartel_error img {
+  top: -1rem;
+  left: 10em;
+}
 /*# sourceMappingURL=style.css.map */

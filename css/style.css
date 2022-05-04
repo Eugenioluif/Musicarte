@@ -421,3 +421,40 @@ footer {
     transform: scaleX(0.5); }
   45%, 50% {
     transform: scaleX(1.2); } }
+
+body#pageerror {
+  background-color: black; }
+
+img {
+  position: relative;
+  text-align: center; }
+
+.cartel_error {
+  position: absolute;
+  top: 22rem;
+  left: 38rem;
+  bottom: 0px; }
+  .cartel_error h1 {
+    font-size: 4rem;
+    color: #c9a805; }
+  .cartel_error .ntorcida {
+    top: -18.5rem;
+    left: 9rem; }
+  .cartel_error .pintor {
+    top: -1.2rem;
+    left: -14rem; }
+  .cartel_error .obrero {
+    top: -1.2rem;
+    left: -10rem; }
+  .cartel_error .cartvolver {
+    left: -55rem; }
+
+.btnvolver {
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: absolute;
+  left: -27rem;
+  top: 10rem;
+  color: black; }
+  .btnvolver:hover {
+    font-size: 2.8rem; }
