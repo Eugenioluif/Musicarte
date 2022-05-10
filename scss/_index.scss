@@ -103,6 +103,7 @@
     @include ubication (50px,auto,auto,45%);
     perspective: 800px;
     margin-bottom: 4rem;
+    font-weight: bold;
     }
      
     .bot-prod:hover .flip {
@@ -146,7 +147,8 @@
         }
  
           .back a {
-            text-decoration: none;
+              color: map-get($map-gral,col-neg);
+              font-weight: bold;
               @include positions(relative);
               z-index: 1;
               top: 1.8rem;
