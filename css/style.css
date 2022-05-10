@@ -231,6 +231,9 @@ body#contacto {
     font-weight: bold;
     border-radius: 5%; }
 
+.red-conta {
+  color: #c99f0b; }
+
 body#body_tab {
   background-color: #000000;
   background-image: url(../media/imagenes/fondotab.png);

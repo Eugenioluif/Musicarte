@@ -22,3 +22,7 @@ body#contacto{
     border-radius: 5%;
     }
 }
+
+.red-conta{
+    color: map-get($map-gral,col-yell);
+}
