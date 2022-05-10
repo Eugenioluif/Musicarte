@@ -4,6 +4,7 @@
     @include positions(fixed);
     @include ubication (auto,0.5rem,1rem,auto);
     transform: translate(-50%, -50%);
+    z-index: 9;
   }
  
   .down {

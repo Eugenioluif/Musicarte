@@ -100,12 +100,12 @@ hr {
 #row-col {
   background-color: #c99f0b;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px; }
 
 .col-separador {
-  padding: 1.5rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem; }
+  padding: 1.5rem; }
 
 /*  carousel */
 .carousel-item {
@@ -339,7 +339,15 @@ footer {
     right: auto;
     bottom: auto;
     left: 35%;
-    perspective: 800px; } }
+    perspective: 800px; }
+  .btn {
+    padding: 0.3rem;
+    font-size: 1rem;
+    width: 12.5rem;
+    border-radius: 5%;
+    color: #000000;
+    background-color: #c99f0b;
+    font-weight: bold; } }
 
 .center {
   position: fixed;
@@ -347,7 +355,8 @@ footer {
   right: 0.5rem;
   bottom: 1rem;
   left: auto;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  z-index: 9; }
 
 .down {
   position: relative;

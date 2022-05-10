@@ -75,12 +75,13 @@
     background-color:map-get($map-gral,col-yell);
     justify-content: center;
     text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .col-separador{
     padding: 1.5rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    
 }
 
 /*  carousel */

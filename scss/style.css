@@ -127,8 +127,6 @@ hr {
 
 .col-separador {
   padding: 1.5rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
 }
 
 /*  carousel */
@@ -650,7 +648,7 @@ footer {
   }
 }
 
-body#page404 {
+body#pageerror {
   background-color: black;
 }
 
@@ -668,12 +666,38 @@ img {
 
 .cartel_error h1 {
   font-size: 4rem;
-  text-align: center;
   color: #c9a805;
 }
 
-.cartel_error img {
-  top: -1rem;
-  left: 10em;
+.cartel_error .ntorcida {
+  top: -18.5rem;
+  left: 9rem;
+}
+
+.cartel_error .pintor {
+  top: -1.2rem;
+  left: -14rem;
+}
+
+.cartel_error .obrero {
+  top: -1.2rem;
+  left: -10rem;
+}
+
+.cartel_error .cartvolver {
+  left: -55rem;
+}
+
+.btnvolver {
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: absolute;
+  left: -27rem;
+  top: 10rem;
+  color: black;
+}
+
+.btnvolver:hover {
+  font-size: 2.8rem;
 }
 /*# sourceMappingURL=style.css.map */
