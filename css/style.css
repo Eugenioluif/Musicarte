@@ -318,7 +318,7 @@ footer {
     font-size: medium;
     letter-spacing: 0.1em;
     position: absolute;
-    top: 25rem;
+    top: 10rem;
     right: 35%;
     bottom: auto;
     left: 35%;
@@ -340,6 +340,16 @@ footer {
     bottom: auto;
     left: 35%;
     perspective: 800px; }
+  .bot-prod {
+    position: relative;
+    width: 150px;
+    height: 80px;
+    top: 50px;
+    right: auto;
+    bottom: auto;
+    left: 35%;
+    perspective: 800px;
+    margin-bottom: 4rem; }
   .btn {
     padding: 0.3rem;
     font-size: 1rem;
