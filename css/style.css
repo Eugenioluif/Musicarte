@@ -115,6 +115,12 @@ hr {
     width: 100%;
     height: 50vh; }
 
+.carousel-control-prev {
+  left: 25rem; }
+
+.carousel-control-next {
+  right: 25rem; }
+
 /*  estilos boton vermas */
 .bot-prod {
   position: relative;
@@ -355,6 +361,10 @@ footer {
     left: 35%;
     perspective: 800px;
     margin-bottom: 4rem; }
+  .carousel-control-prev {
+    left: 2rem; }
+  .carousel-control-next {
+    right: 2rem; }
   .btn {
     padding: 0.3rem;
     font-size: 1rem;
